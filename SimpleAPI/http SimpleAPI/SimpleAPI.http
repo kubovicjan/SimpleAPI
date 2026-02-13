@@ -1,0 +1,7 @@
+@SimpleAPI_HostAddress = http://localhost:5201
+@cardId = 123456789
+@apiKey = my-secret-api-key
+
+GET {{SimpleAPI_HostAddress}}/api/Cards/{{cardId}}
+Accept: application/json
+X-API-KEY: {{apiKey}}

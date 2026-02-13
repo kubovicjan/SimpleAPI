@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SimpleAPI.Tests/SimpleAPI.Tests.csproj" />
+  <Project Path="SimpleAPI/SimpleAPI.csproj" />
+</Solution>
