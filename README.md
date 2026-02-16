@@ -76,10 +76,11 @@ The OpenAPI specification is available when running in the `Development` environ
 
 **Endpoint:** `GET /openapi/v1.json`
 
-This returns the full OpenAPI v1 document describing all available endpoints, request/response schemas, and authentication requirements.
+This returns the OpenAPI v3.1.1 document describing available endpoint, request/response schemas, and authentication requirements.
 
 ### Unit tests
 Unit tests are located in the `SimpleAPI.Tests` project. To run the tests, use the following command:
 ```
 dotnet test SimpleAPI\SimpleAPI.Tests
+
 ```
