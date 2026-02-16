@@ -15,7 +15,10 @@ if (remoteServiceConfig is null)
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ExceptionFilter>();
+});
 builder.AddCoreServices(remoteServiceConfig);
 
 var app = builder.Build();
@@ -35,5 +38,6 @@ app.MapControllers();
 app.MapHealthChecks("/health");
 
 app.Run();
+
 
 return 0;
