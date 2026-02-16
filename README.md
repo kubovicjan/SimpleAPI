@@ -22,7 +22,7 @@ You can override these values using environment variables:
 
 ### From the command line
 ```
-dotnet run --launch-profile https -p SimpleAPI\SimpleAPI
+dotnet run --launch-profile https --project SimpleAPI\SimpleAPI
 ```
 
 ### From Visual Studio
@@ -84,4 +84,5 @@ Unit tests are located in the `SimpleAPI.Tests` project. To run the tests, use t
 dotnet test SimpleAPI\SimpleAPI.Tests
 
 ```
+
 
